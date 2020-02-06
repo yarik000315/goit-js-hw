@@ -1,3 +1,5 @@
+'use strict'
+
 let input;
 let totalAmount = 0;
 
@@ -6,7 +8,7 @@ while (input !== null) {
 
   if (isNaN(input)) {
     alert('Введите число!');
-} else totalAmount = totalAmount + Number(input);
+} else totalAmount += Number(input);
 }
 
 alert(`Общая сумма чисел равна ${totalAmount}`);

@@ -1,6 +1,8 @@
+'use strict'
+
 const total = 100;
 const ordered = 150;
-let type
+let type;
 
 if( total >= ordered ) {
     type = "Заказ оформлен, с вами свяжется менеджер";
@@ -8,4 +10,4 @@ if( total >= ordered ) {
     type = "На складе недостаточно товаров!";
     }
 
-    console.log (type)
+    console.log (type);
